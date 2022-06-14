@@ -1,4 +1,4 @@
-# TIDflow
+# TIDFlow
 
 TIDFlow (Three dim Information Docking Flow), a flow-based molecular graph generative model using three-dim information and molecular docking. 
 
