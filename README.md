@@ -102,13 +102,13 @@ python generate.py
 ```
 #### Examples of molecules generated with 3d information
 ![optimiation plogp](fig/gen_with_3d.png)
-<<<<<<< HEAD
 
 ### 5.3 Property optimization
+
+If you have not downloaded our trained model, first you need to adjust ‘mode’ in 'OptimPropConfig' to train，then run:
 
 ```
 python property_optimize.py
 ```
 
-=======
->>>>>>> 01669fd68de16c66bf903914d69e68d499aced39
+After training, adjust ‘mode’ in 'OptimPropConfig' to gen, then run the previous command.
