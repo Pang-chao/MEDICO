@@ -1,4 +1,4 @@
-# TIDflow
+# TIDFlow
 
 TIDFlow (Three dim Information Docking Flow), a flow-based molecular graph generative model using three-dim information and molecular docking. 
 
@@ -102,6 +102,7 @@ python generate.py
 ```
 #### Examples of molecules generated with 3d information
 ![optimiation plogp](fig/gen_with_3d.png)
+<<<<<<< HEAD
 
 ### 5.3 Property optimization
 
@@ -109,3 +110,5 @@ python generate.py
 python property_optimize.py
 ```
 
+=======
+>>>>>>> 01669fd68de16c66bf903914d69e68d499aced39
