@@ -102,3 +102,10 @@ python generate.py
 ```
 #### Examples of molecules generated with 3d information
 ![optimiation plogp](fig/gen_with_3d.png)
+
+### 5.3 Property optimization
+
+```
+python property_optimize.py
+```
+

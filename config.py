@@ -119,6 +119,28 @@ class GenerateConfig():
     draw_tSNE = False
     draw_mols = False
 
+class OptimPropConfig():
+    property_name = 'plogp'
+    data_name = 'qm9'
+    mode = 'gen'
+    top_score = True
+    optim_mol = False
+
+    model_dir = './results/qm9/dock_1000'
+    snapshot_path = 'model_snapshot_epoch_1000'
+    params_path = 'flow_params.json'
+    sphere_params = 'sphere_params_200.pt'
+    gpu = 2
+    max_epochs = 500
+    train_size = 120000
+    batch_size = 512
+    hidden_size = [16]
+    seed = 2022
+    learning_rate = 1e-3
+    weight_decay = 1e-5
+    topk = 500
+    steps = 100
+
 class NumpyEncoder(json.JSONEncoder):
     def default(self, obj):
         if isinstance(obj, np.ndarray):
