@@ -1,10 +1,10 @@
-# TIDFlow
+# MEDICO
 
-TIDFlow (Three dim Information Docking Flow), a flow-based molecular graph generative model using three-dim information and molecular docking. 
+MEDICO, a **M**ulti-vi**E**w **D**eep generative model for molecule generation, structural optimization, and the SARS-CoV-2 **I**nhibitor dis**CO**very.
 
 It encodes the 3D information of the molecule into a complete representation of the molecule and then feeds the 3D representation of the molecule into the trained flow model as input information. Moreover, we use the binding energy obtained from molecular docking between molecules in the training set and the target protein to assist in the training of TIDFlow, allowing TIDFlow to generate molecules with stronger inhibitory effects on the target protein.
 
-![framework](fig/framework.png)
+![framework](fig/framework.jpg)
 
 ## 1. Requirements:
 ```
